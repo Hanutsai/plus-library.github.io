@@ -1,0 +1,349 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; outline: none; }
+
+:root{
+   --green: #15d15b;
+   --red: red;
+   --blue: blue;
+   --yellow: #fffd00;
+   --light-blue: #00ccff;
+   --lovely: #ff0064;
+   --orange: #ff8500;
+}
+
+/* universal */
+
+.plus-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.plus-center-full{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.shadow{
+   box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+}
+
+button, input [type="submit"]{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 20px;
+   border: none;
+   background: #fdfdfd;
+   border-radius: 05px;
+   cursor: pointer;
+   border: none;
+}
+
+button:hover{
+   background: #f3f3f3;
+}
+
+a{
+   
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+input{
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #dadada;
+}
+
+input:focus{
+   border: 1px solid #969696;
+}
+
+form input{
+   margin-top: 10px;
+}
+
+/* plus-btn-good*/
+
+.plus-btn-good{
+   background: var(--green);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-good a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-good:hover{
+   background: #1ca93b;
+}
+
+   /* hover */
+   
+.plus-btn-good.outline{
+   background: transparent;
+   color: var(--green);
+   transition: 0.2s;
+   border: 1px solid var(--green);
+}
+
+.plus-btn-good.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-good.outline:hover{
+   background: var(--green);
+   color: white;
+}
+
+.plus-input-good:focus{
+   border: 1px solid var(--green);
+}
+
+/* plus-btn-happy */
+
+.plus-btn-happy{
+   background: var(--yellow);
+   color: black;
+   transition: 0.2s;
+}
+
+.plus-btn-happy a{
+   text-decoration: none;
+   color: black;
+}
+
+.plus-btn-happy:hover{
+   background: #b8d200;
+}
+
+   /* hover */
+   
+.plus-btn-happy.outline{
+   background: transparent;
+   color: var(--yellow);
+   transition: 0.2s;
+   border: 1px solid var(--yellow);
+}
+
+.plus-btn-happy.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-happy.outline:hover{
+   background: var(--yellow);
+   color: white;
+}
+
+.plus-input-happy:focus{
+   border: 1px solid #c1ad0e;
+}
+
+/* drama */
+
+.plus-btn-drama{
+   background: var(--blue);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-drama a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-drama:hover{
+   background: #0a006c;
+}
+
+   /* hover */
+   
+.plus-btn-drama.outline{
+   background: transparent;
+   color: var(--blue);
+   transition: 0.2s;
+   border: 1px solid var(--blue);
+}
+
+.plus-btn-drama.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-drama.outline:hover{
+   background: var(--blue);
+   color: white;
+}
+
+.plus-input-drama:focus{
+   border: 1px solid var(--blue);
+}
+
+/* lovely */
+
+.plus-btn-lovely{
+   background: var(--lovely);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-lovely a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-lovely:hover{
+   background: #cf004c;
+}
+
+   /* hover */
+   
+.plus-btn-lovely.outline{
+   background: transparent;
+   color: var(--lovely);
+   transition: 0.2s;
+   border: 1px solid var(--lovely);
+}
+
+.plus-btn-lovely.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-lovely.outline:hover{
+   background: var(--lovely);
+   color: white;
+}
+
+.plus-input-lovely:focus{
+   border: 1px solid #ff0064;
+}
+
+/* angry */
+
+.plus-btn-angry{
+   background: var(--red);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-angry a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-angry:hover{
+   background: #da0000;
+}
+
+   /* hover */
+   
+.plus-btn-angry.outline{
+   background: transparent;
+   color: var(--red);
+   transition: 0.2s;
+   border: 1px solid var(--red);
+}
+
+.plus-btn-angry.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-angry.outline:hover{
+   background: var(--red);
+   color: white;
+}
+
+.plus-input-angry:focus{
+   border: 1px solid var(--red);
+}
+
+/* mysky */
+
+.plus-btn-mysky{
+   background: var(--light-blue);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-mysky a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-mysky:hover{
+   background: #009ac0;
+}
+
+   /* hover */
+   
+.plus-btn-mysky.outline{
+   background: transparent;
+   color: var(--light-blue);
+   transition: 0.2s;
+   border: 1px solid var(--light-blue);
+}
+
+.plus-btn-mysky.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-mysky.outline:hover{
+   background: var(--light-blue);
+   color: white;
+}
+
+.plus-input-mysky:focus{
+   border: 1px solid var(--light-blue);
+}
+
+/* sad */
+
+.plus-btn-sad{
+   background: var(--orange);
+   color: white;
+   transition: 0.2s;
+}
+
+.plus-btn-sad a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-sad:hover{
+   background: #b87800;
+}
+
+   /* hover */
+   
+.plus-btn-sad.outline{
+   background: transparent;
+   color: var(--orange);
+   transition: 0.2s;
+   border: 1px solid var(--orange);
+}
+
+.plus-btn-sad.outline a{
+   color: white;
+   text-decoration: none;
+}
+
+.plus-btn-sad.outline:hover{
+   background: var(--orange);
+   color: white;
+}
+
+.plus-input-sad:focus{
+   border: 1px solid var(--orange);
+}
